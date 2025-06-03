@@ -2,8 +2,6 @@ from gradescopeapi.classes.connection import GSConnection
 import json
 from enums import DateStrictness
 import datetime
-import zoneinfo
-import time
 from datetime import timedelta
 import os.path
 import customtkinter as ctk
@@ -11,7 +9,6 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
 import CTkMessagebox
 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
