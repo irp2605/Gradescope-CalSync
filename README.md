@@ -10,17 +10,18 @@ Gradescope CalSync automatically imports your Gradescope assignments into Google
 ## Setup and Usage
 
 1. Ensure you have Python 3.8+ and pip installed
-2. Clone the project
+2. Clone the project / download the zip
 3. In the root directory using cmd run:
 ```cmd
 pip install -r requirements.txt
 ```
-4. [Setup the Google calendar environment](https://developers.google.com/workspace/calendar/api/quickstart/python#set-up-environment) and [authorize your credentials](https://developers.google.com/workspace/calendar/api/quickstart/python#authorize_credentials_for_a_desktop_application), placing the credentials.json file in the root directory
+4. [Setup the Google calendar environment](https://developers.google.com/workspace/calendar/api/quickstart/python#set-up-environment) and [authorize your credentials](https://developers.google.com/workspace/calendar/api/quickstart/python#authorize_credentials_for_a_desktop_application), saving the resultant json file as credentials.json file in the root directory
 5. Run the program by running the following in the root directory:
 ```cmd
 python main.py
 ```
-    
+If you accidentally run the program before providing you credentials file, please be sure to delete the token.json that can be found in the root folder.
+
 ## Screenshots
 
 ![Preview1](./img1.png)
