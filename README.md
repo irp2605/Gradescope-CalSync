@@ -37,6 +37,8 @@ python main.py
 
 \*If you wish to use another calendar besides Google Calendar (ie iCloud Calendar), you can have the program sync to Google Calendar and then copy the iCal link found in settings into the Calendar app of your choice.
 
+Note that syncing may take a bit and that the application will stall during this time due to lack of threading.
+
 There are some assignments for which the Gradescope api I am using returns a none assignment ID. From my testing this results from assignments marked as ungraded, so I am ignoring them. 
 
 I am happy to take any questions regarding these issues, or any others, through Github's contact systems.
