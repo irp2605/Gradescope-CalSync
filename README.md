@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```cmd
 python main.py
 ```
-If you accidentally run the program before providing you credentials file, please be sure to delete the token.json that can be found in the root folder.
+If you accidentally run the program before providing you credentials file, please be sure to delete the token.json that can be found in the root folder before running again.
 
 ## Screenshots
 
